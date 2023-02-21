@@ -6,13 +6,15 @@
 #define ALGORITHM_CPP_CODING_INTERVIEWS_PROGRAM_H
 
 #include "剑指offer/find.h"
+#include "剑指offer/duplicate.h"
 
 namespace Algorithm {
 
     class CodingInterviewsProgram {
     public:
         static void Test() {
-            Find::Solution().Test();
+//            Find::Solution().Test();
+            Duplicate::Solution().Test();
         }
     };
 
