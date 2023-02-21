@@ -7,6 +7,7 @@
 
 #include "剑指offer/find.h"
 #include "剑指offer/duplicate.h"
+#include "剑指offer/replace_space.h"
 
 namespace Algorithm {
 
@@ -14,7 +15,8 @@ namespace Algorithm {
     public:
         static void Test() {
 //            Find::Solution().Test();
-            Duplicate::Solution().Test();
+//            Duplicate::Solution().Test();
+            ReplaceSpace::Solution().Test();
         }
     };
 

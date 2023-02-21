@@ -13,6 +13,9 @@ public:
         // write code here
     }
 };
+
+想法：
+逐字符复制字符串，遇到空格复制%20
 */
 
 #ifndef ALGORITHM_CPP_REPLACE_SPACE_H
@@ -25,12 +28,26 @@ using namespace std;
 namespace ReplaceSpace {
     class Solution {
     public:
+        /*
+         * 解法基本思路：
+         * 这道题比较简单，就是遍历该字符串每一个字符进行复制，遇到空格就复制成%20
+         */
         string ReplaceSpace(string s) {
-            // write code here
+            string str = "";
+            for(int i = 0; i < s.length(); i ++) {
+                if(s[i] == ' ') {
+                    str += "%20";
+                } else {
+                    str += s[i];
+                }
+            }
+            return str;
         }
 
         void Test() {
-            std::cout << "test" << endl;
+//            string s = "We Are Happy";
+            string s = " ";
+            std::cout << ReplaceSpace(s) << endl;
         }
     };
 }
