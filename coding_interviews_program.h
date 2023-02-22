@@ -11,6 +11,7 @@
 #include "剑指offer/print_list_from_tail_to_head.h"
 #include "剑指offer/re_construct_binary_tree.h"
 #include "剑指offer/get_next.h"
+#include "剑指offer/simulate_queue_with_stack.h"
 
 namespace Algorithm {
 
@@ -22,7 +23,9 @@ namespace Algorithm {
 //            ReplaceSpace::Solution().Test();
 //            PrintListFromTailToHead::Solution().Test();
 //            ReConstructBinaryTree::Solution().Test();
-            GetNext::Solution().Test();  // *
+//            GetNext::Solution().Test();  // *
+            SimulateQueueWithStack::Solution().Test();
+
         }
     };
 
