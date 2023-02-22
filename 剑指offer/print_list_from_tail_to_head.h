@@ -39,12 +39,48 @@ namespace PrintListFromTailToHead {
 
     class Solution {
     public:
+        /*
+         * 解法1基本思路：
+         * while循环从头遍历整个链表，将每个元素插入到List中
+         * 因为要求是从尾到头，所以每次插入时利用insert函数不断将元素插入到第一的位置
+         */
         vector<int> PrintListFromTailToHead(ListNode *head) {
+            vector<int> list;
+            while (head != nullptr) {
+                list.insert(list.begin(), head->val);
+                head = head->next;
+            }
+            return list;
+        }
 
+        /*
+         * 解法2
+         * 基本思路：
+         * 利用递归，不断的查找链表的下一个节点，直到尾结点。然后在回溯过程中将每个节点的值加入到list中
+         */
+        vector<int> PrintListFromTailToHead2(ListNode *head) {
+            vector<int> list;
+            PrintListFromTailToHead2Impl(list, head);
+            return list;
+        }
+
+        void PrintListFromTailToHead2Impl(vector<int>& list, ListNode *head) {
+            if (head != nullptr) {
+                PrintListFromTailToHead2Impl(list, head->next);
+                list.push_back(head->val);
+            }
         }
 
         void Test() {
-            std::cout << "test" << endl;
+            ListNode *head = new ListNode(1);
+            head->next = new ListNode(2);
+            head->next->next = new ListNode(3);
+
+//            vector<int> list = PrintListFromTailToHead(head);
+            vector<int> list = PrintListFromTailToHead2(head);
+            for (auto it = list.begin(); it != list.end(); it++) {
+                std::cout << *it << endl;
+            }
         }
     };
 }
