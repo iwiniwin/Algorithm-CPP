@@ -47,6 +47,10 @@ void print(int val) {
     std::cout << val << endl;
 }
 
+void print(string s) {
+    std::cout << s << endl;
+}
+
 void print(TreeNode *head) {
     queue<TreeNode*> nodes;
     nodes.push(head);

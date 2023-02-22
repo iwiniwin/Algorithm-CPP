@@ -22,7 +22,7 @@ namespace Algorithm {
 //            ReplaceSpace::Solution().Test();
 //            PrintListFromTailToHead::Solution().Test();
 //            ReConstructBinaryTree::Solution().Test();
-            GetNext::Solution().Test();
+            GetNext::Solution().Test();  // *
         }
     };
 
