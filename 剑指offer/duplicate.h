@@ -21,6 +21,7 @@ class Solution
  一开始先想到用map 记录存在的key
  用数组 遍历到在的数字 放到对应的下标里
  能否修改原数组？能的话
+ 以为不能修改原数组，后面就没继续想了。修改原数组的话，利用原数组做些关键信息记录
 */
 
 #ifndef ALGORITHM_CPP_DUPLICATE_H
