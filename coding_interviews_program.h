@@ -12,6 +12,7 @@
 #include "剑指offer/re_construct_binary_tree.h"
 #include "剑指offer/get_next.h"
 #include "剑指offer/simulate_queue_with_stack.h"
+#include "剑指offer/fibonacci.h"
 
 namespace Algorithm {
 
@@ -24,8 +25,8 @@ namespace Algorithm {
 //            PrintListFromTailToHead::Solution().Test();
 //            ReConstructBinaryTree::Solution().Test();
 //            GetNext::Solution().Test();  // *
-            SimulateQueueWithStack::Solution().Test();
-
+//            SimulateQueueWithStack::Solution().Test();
+            Fibonacci::Solution().Test();
         }
     };
 
