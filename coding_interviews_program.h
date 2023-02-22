@@ -13,6 +13,7 @@
 #include "剑指offer/get_next.h"
 #include "剑指offer/simulate_queue_with_stack.h"
 #include "剑指offer/fibonacci.h"
+#include "剑指offer/min_number_in_rotate_array.h"
 
 namespace Algorithm {
 
@@ -26,7 +27,8 @@ namespace Algorithm {
 //            ReConstructBinaryTree::Solution().Test();
 //            GetNext::Solution().Test();  // *
 //            SimulateQueueWithStack::Solution().Test();
-            Fibonacci::Solution().Test();
+//            Fibonacci::Solution().Test();
+            MinNumberInRotateArray::Solution().Test();
         }
     };
 
