@@ -24,18 +24,11 @@ public:
 
 #include <iostream>
 #include <vector>
+#include "../common.h"
 
 using namespace std;
 
 namespace PrintListFromTailToHead {
-    struct ListNode {
-        int val;
-        struct ListNode *next;
-
-        ListNode(int x) :
-                val(x), next(NULL) {
-        }
-    };
 
     class Solution {
     public:
@@ -78,9 +71,7 @@ namespace PrintListFromTailToHead {
 
 //            vector<int> list = PrintListFromTailToHead(head);
             vector<int> list = PrintListFromTailToHead2(head);
-            for (auto it = list.begin(); it != list.end(); it++) {
-                std::cout << *it << endl;
-            }
+            print(PrintListFromTailToHead2(head));
         }
     };
 }
