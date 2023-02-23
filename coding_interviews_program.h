@@ -20,6 +20,7 @@
 #include "剑指offer/number_of_1.h"
 #include "剑指offer/power.h"
 #include "剑指offer/print_numbers.h"
+#include "剑指offer/delete_node.h"
 
 namespace Algorithm {
 
@@ -40,7 +41,8 @@ namespace Algorithm {
 //            CutRope::Solution().Test();
 //            NumberOf1::Solution().Test();
 //            Power::Solution().Test();
-            PrintNumbers::Solution().Test();
+//            PrintNumbers::Solution().Test();
+            DeleteNode::Solution().Test();
         }
     };
 
