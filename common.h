@@ -48,6 +48,10 @@ void print(int val) {
     std::cout << val << endl;
 }
 
+void print(double val) {
+    std::cout << val << endl;
+}
+
 void print(string s) {
     std::cout << s << endl;
 }
