@@ -53,7 +53,7 @@ namespace HasPath {
         bool
         hasPath(vector<vector<char>> &matrix, int row, int col, vector<vector<bool>> &record, string word, int offset) {
             if (offset >= word.length()) return true;
-            if (row >= matrix.size() || col >= matrix[row].size()) return false;
+            if (row < 0 || row >= matrix.size() || col < 0 || col >= matrix[row].size()) return false;
             if (matrix[row][col] == word[offset] && !record[row][col]) {
                 record[row][col] = true;
                 bool ret = hasPath(matrix, row + 1, col, record, word, offset + 1) ||

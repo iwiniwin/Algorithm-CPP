@@ -15,6 +15,7 @@
 #include "剑指offer/fibonacci.h"
 #include "剑指offer/min_number_in_rotate_array.h"
 #include "剑指offer/has_path.h"
+#include "剑指offer/moving_count.h"
 
 namespace Algorithm {
 
@@ -30,7 +31,8 @@ namespace Algorithm {
 //            SimulateQueueWithStack::Solution().Test();
 //            Fibonacci::Solution().Test();
 //            MinNumberInRotateArray::Solution().Test();
-            HasPath::Solution().Test();
+//            HasPath::Solution().Test();
+            MovingCount::Solution().Test();
         }
     };
 
