@@ -17,6 +17,7 @@
 #include "剑指offer/has_path.h"
 #include "剑指offer/moving_count.h"
 #include "剑指offer/cut_rope.h"
+#include "剑指offer/number_of_1.h"
 
 namespace Algorithm {
 
@@ -34,7 +35,8 @@ namespace Algorithm {
 //            MinNumberInRotateArray::Solution().Test();
 //            HasPath::Solution().Test();
 //            MovingCount::Solution().Test();
-            CutRope::Solution().Test();
+//            CutRope::Solution().Test();
+            NumberOf1::Solution().Test();
         }
     };
 
