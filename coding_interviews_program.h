@@ -14,6 +14,7 @@
 #include "剑指offer/simulate_queue_with_stack.h"
 #include "剑指offer/fibonacci.h"
 #include "剑指offer/min_number_in_rotate_array.h"
+#include "剑指offer/has_path.h"
 
 namespace Algorithm {
 
@@ -28,7 +29,8 @@ namespace Algorithm {
 //            GetNext::Solution().Test();  // *
 //            SimulateQueueWithStack::Solution().Test();
 //            Fibonacci::Solution().Test();
-            MinNumberInRotateArray::Solution().Test();
+//            MinNumberInRotateArray::Solution().Test();
+            HasPath::Solution().Test();
         }
     };
 
