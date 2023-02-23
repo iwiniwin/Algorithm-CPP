@@ -18,6 +18,7 @@
 #include "剑指offer/moving_count.h"
 #include "剑指offer/cut_rope.h"
 #include "剑指offer/number_of_1.h"
+#include "剑指offer/power.h"
 
 namespace Algorithm {
 
@@ -36,7 +37,8 @@ namespace Algorithm {
 //            HasPath::Solution().Test();
 //            MovingCount::Solution().Test();
 //            CutRope::Solution().Test();
-            NumberOf1::Solution().Test();
+//            NumberOf1::Solution().Test();
+            Power::Solution().Test();
         }
     };
 
