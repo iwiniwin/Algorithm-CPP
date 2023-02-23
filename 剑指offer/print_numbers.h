@@ -24,11 +24,22 @@ namespace PrintNumbers {
     class Solution {
     public:
         vector<int> printNumbers(int n) {
-            // write code here
+            int num = 1;
+            while(n -- > 0) {
+                num *= 10;
+            }
+            vector<int> result(num - 1);
+            for(int i = 0; i < result.size(); i ++) {
+                result[i] = i + 1;
+            }
+            return result;
         }
 
         void Test() {
-            print("test");
+            int n = 1;
+            n = 2;
+            n = 3;
+            print(printNumbers(n));
         }
     };
 }
