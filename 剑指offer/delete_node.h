@@ -27,11 +27,28 @@ namespace DeleteNode {
     public:
 
         ListNode* deleteNode(ListNode* head, int val) {
-            // write code here
+            if(head == nullptr) return nullptr;
+            if(head->val == val) return head->next;
+            ListNode *node = head;
+            while(node->next != nullptr) {
+                if(node->next->val == val) {
+                    node->next = node->next->next;
+                    break;
+                }
+                node = node->next;
+            }
+            return head;
         }
 
         void Test() {
-            print("test");
+            ListNode *head = new ListNode(2);
+            head->next = new ListNode(5);
+            head->next->next = new ListNode(1);
+            head->next->next->next = new ListNode(9);
+            int val = 5;
+            val = 2;
+            val = 9;
+            print(deleteNode(head, val));
         }
     };
 }

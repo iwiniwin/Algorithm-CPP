@@ -73,5 +73,13 @@ void print(TreeNode *head) {
     std::cout << endl;
 }
 
+void print(ListNode *head) {
+    while (head != nullptr) {
+        std::cout << head->val << " ";
+        head = head->next;
+    }
+    std::cout << endl;
+}
+
 
 #endif //ALGORITHM_CPP_CONSOLE_H
