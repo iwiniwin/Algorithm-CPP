@@ -21,6 +21,7 @@
 #include "剑指offer/power.h"
 #include "剑指offer/print_numbers.h"
 #include "剑指offer/delete_node.h"
+#include "剑指offer/match.h"
 
 namespace Algorithm {
 
@@ -42,7 +43,8 @@ namespace Algorithm {
 //            NumberOf1::Solution().Test();
 //            Power::Solution().Test();
 //            PrintNumbers::Solution().Test();
-            DeleteNode::Solution().Test();
+//            DeleteNode::Solution().Test();
+            Match::Solution().Test();  // ***
         }
     };
 
