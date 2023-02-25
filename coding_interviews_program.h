@@ -24,6 +24,7 @@
 #include "剑指offer/match.h"
 #include "剑指offer/is_numeric.h"
 #include "剑指offer/re_order_array.h"
+#include "剑指offer/find_kth_to_tail.h"
 
 namespace Algorithm {
 
@@ -48,7 +49,8 @@ namespace Algorithm {
 //            DeleteNode::Solution().Test();
 //            Match::Solution().Test();  // ***
 //            IsNumeric::Solution().Test();  // *
-            ReOrderArray::Solution().Test();
+//            ReOrderArray::Solution().Test();
+            FindKthToTail::Solution().Test();
         }
     };
 
