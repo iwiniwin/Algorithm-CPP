@@ -23,6 +23,7 @@
 #include "剑指offer/delete_node.h"
 #include "剑指offer/match.h"
 #include "剑指offer/is_numeric.h"
+#include "剑指offer/re_order_array.h"
 
 namespace Algorithm {
 
@@ -46,7 +47,8 @@ namespace Algorithm {
 //            PrintNumbers::Solution().Test();
 //            DeleteNode::Solution().Test();
 //            Match::Solution().Test();  // ***
-            IsNumeric::Solution().Test();
+//            IsNumeric::Solution().Test();  // *
+            ReOrderArray::Solution().Test();
         }
     };
 
