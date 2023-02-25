@@ -22,6 +22,7 @@
 #include "剑指offer/print_numbers.h"
 #include "剑指offer/delete_node.h"
 #include "剑指offer/match.h"
+#include "剑指offer/is_numeric.h"
 
 namespace Algorithm {
 
@@ -44,7 +45,8 @@ namespace Algorithm {
 //            Power::Solution().Test();
 //            PrintNumbers::Solution().Test();
 //            DeleteNode::Solution().Test();
-            Match::Solution().Test();  // ***
+//            Match::Solution().Test();  // ***
+            IsNumeric::Solution().Test();
         }
     };
 
