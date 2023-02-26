@@ -27,6 +27,7 @@
 #include "剑指offer/find_kth_to_tail.h"
 #include "剑指offer/entry_node_of_loop.h"
 #include "剑指offer/reverse_list.h"
+#include "剑指offer/merge.h"
 
 namespace Algorithm {
 
@@ -54,7 +55,8 @@ namespace Algorithm {
 //            ReOrderArray::Solution().Test();
 //            FindKthToTail::Solution().Test();
 //            EntryNodeOfLoop::Solution().Test();  // ***
-            ReverseList::Solution().Test();
+//            ReverseList::Solution().Test();
+            Merge::Solution().Test();
         }
     };
 
