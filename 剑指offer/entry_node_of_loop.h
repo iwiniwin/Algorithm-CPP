@@ -181,7 +181,7 @@ namespace EntryNodeOfLoop {
 //            pHead->next->next->next->next->next = pHead;
 //            pHead->next->next->next->next->next = pHead->next->next->next->next;
             pHead->next->next->next->next->next = pHead->next->next->next;
-            
+
 //            pHead = new ListNode(1);
 //            pHead->next = pHead;
 //            pHead->next = new ListNode(2);
