@@ -90,4 +90,22 @@ void print(ListNode *head) {
 }
 
 
+void print(RandomListNode *head) {
+    RandomListNode *p = head;
+    while (p != nullptr) {
+        std::cout << p->label << " ";
+        p = p->next;
+    }
+    p = head;
+    while (p != nullptr) {
+        if(p->random == nullptr) {
+            std::cout << "# ";
+        } else {
+            std::cout << p->random->label << " ";
+        }
+        p = p->next;
+    }
+    std::cout << endl;
+}
+
 #endif //ALGORITHM_CPP_CONSOLE_H
