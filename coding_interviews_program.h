@@ -32,6 +32,8 @@
 
 #include "剑指offer/clone.h"
 
+#include "剑指offer/serialize_binary_tree.h"
+
 namespace Algorithm {
 
     class CodingInterviewsProgram {
@@ -62,7 +64,9 @@ namespace Algorithm {
 //            Merge::Solution().Test();
 //            HasSubtree::Solution().Test();
 
-            Clone::Solution().Test();
+//            Clone::Solution().Test();
+
+            SerializeBinaryTree::Solution().Test();
         }
     };
 
