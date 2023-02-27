@@ -30,6 +30,8 @@
 #include "剑指offer/merge.h"
 #include "剑指offer/has_subtree.h"
 
+#include "剑指offer/clone.h"
+
 namespace Algorithm {
 
     class CodingInterviewsProgram {
@@ -58,7 +60,9 @@ namespace Algorithm {
 //            EntryNodeOfLoop::Solution().Test();  // ***
 //            ReverseList::Solution().Test();
 //            Merge::Solution().Test();
-            HasSubtree::Solution().Test();
+//            HasSubtree::Solution().Test();
+
+            Clone::Solution().Test();
         }
     };
 

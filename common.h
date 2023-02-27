@@ -37,6 +37,14 @@ struct ListNode {
     }
 };
 
+struct RandomListNode {
+    int label;
+    struct RandomListNode *next, *random;
+    RandomListNode(int x) :
+            label(x), next(NULL), random(NULL) {
+    }
+};
+
 void print(vector<int> list) {
     for (auto it = list.begin(); it != list.end(); it++) {
         std::cout << *it << " ";
