@@ -34,6 +34,8 @@
 
 #include "剑指offer/serialize_binary_tree.h"
 
+#include "剑指offer/max_in_windows.h"
+
 namespace Algorithm {
 
     class CodingInterviewsProgram {
@@ -66,7 +68,9 @@ namespace Algorithm {
 
 //            Clone::Solution().Test();
 
-            SerializeBinaryTree::Solution().Test();
+//            SerializeBinaryTree::Solution().Test();
+
+            MaxInWindows::Solution().Test();
         }
     };
 
