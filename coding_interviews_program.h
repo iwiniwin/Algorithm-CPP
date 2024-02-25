@@ -29,6 +29,7 @@
 #include "剑指offer/reverse_list.h"
 #include "剑指offer/merge.h"
 #include "剑指offer/has_subtree.h"
+#include "剑指offer/get_number_of_k.h"
 
 #include "剑指offer/clone.h"
 
@@ -65,12 +66,13 @@ namespace Algorithm {
 //            ReverseList::Solution().Test();
 //            Merge::Solution().Test();
 //            HasSubtree::Solution().Test();
+            GetNumberOfK::Solution().Test();
 
 //            Clone::Solution().Test();
 
 //            SerializeBinaryTree::Solution().Test();
 
-            MaxInWindows::Solution().Test();
+//            MaxInWindows::Solution().Test();
         }
     };
 

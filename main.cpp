@@ -2,7 +2,7 @@
 #include "sort_program.h"
 
 int main() {
-    // Algorithm::CodingInterviewsProgram::Test();
-    Algorithm::SortProgram::Test();
+    Algorithm::CodingInterviewsProgram::Test();
+    // Algorithm::SortProgram::Test();
     return 0;
 }
